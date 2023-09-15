@@ -23,7 +23,6 @@ import plotly.io as pio
 from plotly.subplots import make_subplots
 
 import streamlit as st
-import FinanceDataReader as fdr
 
 import matplotlib.pyplot as plt
 from matplotlib import font_manager, rc
