@@ -73,7 +73,7 @@ scope = [
     'https://www.googleapis.com/auth/drive',
     ]
 
-json_file_name = './files/school-360306-3aef8e9267cc.json'
+json_file_name = 'mymap-1569549262843-c8ed34e4519b.json'
 
 credentials = ServiceAccountCredentials.from_json_keyfile_name(json_file_name, scope)
 gc = gspread.authorize(credentials)
