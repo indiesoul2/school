@@ -132,7 +132,7 @@ def run(g_status, gubun):
   # st.dataframe(slice_df)
 
   st.subheader("지원한 모든 정보가 모두 맞습니까?")
-  write_sheet = doc.worksheet('confirm')
+  #write_sheet = doc.worksheet('confirm')
   # Define initial state.
   if "todos" not in st.session_state:
       st.session_state.todos = [
