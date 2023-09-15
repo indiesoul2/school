@@ -1,7 +1,6 @@
 from re import S
 import time
 from datetime import datetime
-import drawAPT_weekly
 import datetime
 from dateutil.relativedelta import relativedelta
 
@@ -78,7 +77,7 @@ json_file_name = 'mymap-1569549262843-c8ed34e4519b.json'
 credentials = ServiceAccountCredentials.from_json_keyfile_name(json_file_name, scope)
 gc = gspread.authorize(credentials)
 
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1zzovpuXG1Yzp2KR2XWSZX53_CA5cGPkY50ETkycYOeM/edit?usp=sharing'
+spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1TAQoQdrwjX-617bhY8Z-TKiwhvcZDxLhyUEwR5rf7G4/edit?usp=sharing'
 
 doc = gc.open_by_url(spreadsheet_url)
 
